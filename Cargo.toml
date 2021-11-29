@@ -1,0 +1,19 @@
+[package]
+name = "sound_galaxy"
+version = "0.1.0"
+edition = "2021"
+authors = ["Clayton Hickey <clayton@claytondoesthings.xyz>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winit = "0.25"
+wgpu = "0.11"
+futures = "0.3"
+bytemuck = { version = "1.7", features = [ "derive" ] }
+constrainer = { git = "https://github.com/clay53/constrainer", rev = "147037ab0a31ac5c279120d83dcfdfb762668a76" }
+bui = { git = "https://github.com/clay53/bui", rev = "e3f1ae1ec6ec08c2b8ccaec98849644d14aedb97" }
+rodio = "0.14"
+rand = "0.8"
+# rustfft = "6.0"
+spectrum-analyzer = "1.2"
